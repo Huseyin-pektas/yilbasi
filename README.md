@@ -6,5 +6,6 @@
 
 
  <h3>Ekran Görüntüsü</h3>
+  <a href="yılbaşı.gif"></a>
 
  ![](yılbaşı.gif)
