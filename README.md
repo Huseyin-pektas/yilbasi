@@ -6,6 +6,6 @@
 
 
  <h3>Ekran Görüntüsü</h3>
-  <a href="https://github.com/sefa1-sonmez/yilbasi/blob/main/images/y%C4%B1lba%C5%9F%C4%B1.gif"></a>
+  <a href="https://github.com/sefa1-sonmez/yilbasi/blob/main/images/y%C4%B1lba%C5%9F%C4%B1.gif">screen.gif</a>
 
  ![](yılbaşı.gif)
