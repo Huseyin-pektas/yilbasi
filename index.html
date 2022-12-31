@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arka Plan Video Oynatma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <div class="hero">
+
+        <video id="backvideo" type="video/mp4" src="images/havai.mp4" autoplay loop muted plays-inline></video>
+      
+        <img src="images/hamburger.png" class="menu-icon">
+
+        <div class="sidebar">
+            <div class="top-links">
+                <img src="images/arrow.png" class="arrow-icon">
+                <div>
+                    <img src="images/audio.png">
+                    <img src="images/link.png">
+                </div>
+            </div>
+
+            <h1>Elliana Ktherina</h1>
+            <h3>Washington D.C, USA</h3>
+            <p>Elliana Kathryn Walmsley was born in Boulder,
+                Colorado to Yolanda (née Parra)[2] and
+                Kevin Walmsley. She
+                The Joffrey Ballet, Master Ballet
+                Academy in Scottsdale, Arizona</p>
+
+              
+                <button>
+                <a  type="button" class="btn btn-outline-success "
+                 href="https://www.pexels.com/tr-tr/arama/videos/havai%20fi%C5%9Fek/"> More Details...</a></button>
+            
+        </div>
+        <img src="images/play.png" id="btn">
+    </div>
+
+    <script>
+    let backvideo = document.getElementById("backvideo");
+    let btn = document.getElementById("btn");
+
+    btn.onclick = function(){
+        backvideo.style.display = "block";
+
+        if(backvideo.paused){
+            backvideo.play();
+
+        }
+        else{
+            backvideo.pause();
+        }
+    }
+
+
+
+    </script>
+
+</body>
+
+</html>
